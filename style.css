@@ -1,0 +1,234 @@
+/* Resetear algunos estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #edc5ea;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Cabecera */
+header {
+    text-align: center;
+    background-color: #ae578e;
+    padding: 40px 20px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Introducción y enlaces */
+.intro {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #ff9a8b;
+    margin-bottom: 10px;
+}
+
+.intro ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.intro li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.intro a {
+    text-decoration: none;
+    color: #ff9a8b;
+    font-weight: bold;
+}
+
+.intro a:hover {
+    color: #ff6a5c;
+}
+
+/* Cronología */
+.timeline {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline h2 {
+    font-size: 2rem;
+    color: #ff9a8b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.timeline-item {
+    margin-bottom: 25px;
+}
+
+.timeline-date {
+    font-weight: bold;
+    color: #ff6a5c;
+    font-size: 1.2rem;
+}
+
+.timeline-item p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+/* Galería de fotos */
+.gallery {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    color: #ff9a8b;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.photos img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.photos img:hover {
+    transform: scale(1.05);
+}
+
+/* Quiénes somos */
+.who-we-are {
+    background-color: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.who-we-are h2 {
+    font-size: 2rem;
+    color: #ff9a8b;
+    margin-bottom: 20px;
+}
+
+/* Nuestros Sueños */
+.our-dreams {
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.our-dreams h2 {
+    font-size: 2rem;
+    color: #ff9a8b;
+    margin-bottom: 20px;
+}
+
+.our-dreams ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.our-dreams li {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Mensajes personales */
+.message {
+    background-color: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.message h2 {
+    font-size: 2rem;
+    color: #ff9a8b;
+    margin-bottom: 20px;
+}
+
+.hidden-message {
+    display: none;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+body:hover .hidden-message {
+    display: block;
+    transition: all 2s ease;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #9d4f7f;
+    padding: 20px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff6a5c;
+}
+
+/* Enlaces a otras páginas */
+a {
+    text-decoration: none;
+    color: #ff9a8b;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff6a5c;
+}
